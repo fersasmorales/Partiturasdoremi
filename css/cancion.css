@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: #fffbf0; ;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    padding: 30px 20px;  
+}
+
+
+h1{
+
+    font-size: 8vh;
+    color: #F6B5C1;
+    padding-top:2vw;
+}
+h2{
+    font-size: 5vh;
+    padding: top 1vw;
+padding-bottom: 1vw;
+color: #F6B5C1;
+}
+h3{
+    font-size: 3vh;
+    padding-top:3vh;
+    color: #FED6D6;
+}
+
+#estrellas{
+    font-size: 6vh;
+    color: #F6B5C1;
+padding-bottom: 2vw;
+
+}
+p{
+    font-size: 4vh;
+    color: #FED6D6;
+}
+
+
+.nav{
+    background: #ffd8e4;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vw; 
+    flex: 1;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
+.nav a{
+    color: #fffbf0;
+}
+.nav a:hover {
+    color: #f6b5c1; /* Color al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
+.arriba{
+    background: #fffbf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vw; 
+    flex: 1;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1.3vw;
+}
+.arriba i{
+    color: #f6b5c1; 
+    font-size: 2vw;
+}
+
+#p{
+    color: #f6b5c1;
+}
+#d{
+    color:#91c6cd;
+}
+#r{
+    color: #bedfb5;
+}
+#m{
+    color:#c8aed3;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+#cancion{
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+#datos{
+padding: 2vw;
+}
+
+#partitura{
+    padding: 2vw;
+    text-align: center;
+    
+}
+button{
+    right: 0; /* Alineación a la derecha */
+    bottom: 1.3vh; /* Posición desde abajo */
+    padding: 1.5vh 3vh;
+    background-color: #FFD8E4;
+    color: #FFFBF0;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+    margin-left: 5%;
+    border-radius: 4vw;
+    margin-bottom: 5%;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+img{
+    border-radius: 4vh;
+}
+
+footer{
+    background-color: #fffbf0;
+    font-size: 2vw;
+    align-items: center;
+    text-align: center;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+    color:#ffd8e4;;
+}
